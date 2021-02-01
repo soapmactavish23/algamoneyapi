@@ -37,7 +37,7 @@ public class PessoaService {
 		return false;
 	}
 	
-	private Optional<Pessoa> buscarPessoaPeloCodigo(Long codigo) {
+	public Optional<Pessoa> buscarPessoaPeloCodigo(Long codigo) {
 		Optional<Pessoa> pessoaSalva = pessoaRepository.findById(codigo);
 		return pessoaSalva;
 	}
