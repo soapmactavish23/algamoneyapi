@@ -37,7 +37,7 @@ public class Lancamento {
 	private LocalDate dataVencimento;
 	
 	@Column(name = "data_pagamento")
-	private LocalDate data_pagamento;
+	private LocalDate dataPagamento;
 	
 	@NotNull
 	private BigDecimal valor;
